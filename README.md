@@ -3,6 +3,8 @@ QGIS Plugin, featuring raster-based Multi Criteria Decision Analysis (MCDA) deci
 
 Prototype, initially developed during a student’s projects at CUAS (Carinthia University of Applied Science).
 
+This was the first time for me implementing a QGIS Plugin.
+
 Main source MCDA Theory/Mathematical formulas:
 Malczewski, J. (1999) GIS and Multicriteria Decision Analysis. John Wiley and Sons, Inc., New York.
 
