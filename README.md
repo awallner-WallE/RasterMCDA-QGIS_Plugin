@@ -15,7 +15,8 @@ Malczewski, J. (1999) GIS and Multicriteria Decision Analysis. John Wiley and So
 
 # How to use it:
 After installing, the Plugin can be found in “Plugins” Tab
- ![grafik](https://user-images.githubusercontent.com/79254477/110510666-b8c90980-8103-11eb-88ea-8afee105b628.png)
+
+![grafik](https://user-images.githubusercontent.com/79254477/110510666-b8c90980-8103-11eb-88ea-8afee105b628.png)
 
 There are two tools available:
 - MCDA – Raster: for raster-based decision rules calculations
