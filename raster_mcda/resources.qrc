@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/raster_MCDA" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>
