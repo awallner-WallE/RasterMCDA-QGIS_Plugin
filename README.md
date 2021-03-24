@@ -25,7 +25,7 @@ There are two tools available:
 
 ## Input raster files
 All tools use valid raster files as input. These raster files are representing different criteria for a decision problem.
-The raster files must have following properties:
+The raster files must have the following properties:
 - The same pixel size/spatial resolution/cell size (all input files)
 - The same coordinate reference system (geographic or projected) (all input files)
 - Same extend/origin (all input files)
@@ -38,7 +38,7 @@ The test files include three 4x4 standardized criteria raster files (factors) an
 
 ![grafik](https://user-images.githubusercontent.com/79254477/110510865-e6ae4e00-8103-11eb-9348-da2509245205.png)
 
-### NOTE that the performance of the Plugins calculations with bigger raster files is very slow (tool MCDA – Raster). Also, the rest of QGIS is blocked during the calculations.
+### NOTE: The performance of the Plugins calculations with bigger raster files is very slow (tool MCDA – Raster). Also, the rest of QGIS is blocked during the calculations.
 
 ## Calculate weights with MCDA – Weighting (Pairwise)
 
@@ -51,7 +51,7 @@ Weights are used to include the “preferences” or “importance” of the dif
 
 Criteria can be added to the calculation with the “Add Factor” button.
 In the example we add all three test criteria layers and fill the Pairwise comparison matrix according to the Scale of Saaty.
-### Do only fill values in the lower-left diagonal side of the matrix
+### NOTE: Do only fill values in the lower-left diagonal side of the matrix
 
 Example:
 
@@ -65,7 +65,7 @@ This would mean:
 After filling in the values, the output location can be set with the “Browse” button. The calculation can be started with the “OK” button.
 The result will be saved in a “*.wpc” file. This file contains key-value pairs of the criteria names with the according calculated weight and the consistency ratio. For a consistent weighting the consistency ratio must be less than 0.1.
 
-After the calculation is finished, the user is getting informed about the result by a “Message Box”. This “Message Box” contains the weights and the consistency ratio. If the consistency ratio is to high (above 0.1) The “Message Box” contains information that the consistency ratio is too high and there is inconsistency within his input (Figure 11). The user can check/change the input after the message was shown.
+After the calculation is finished, the user is getting informed about the result by a “Message Box”. This “Message Box” contains the weights and the consistency ratio. If the consistency ratio is too high (above 0.1) The “Message Box” contains information that the consistency ratio is too high and there is inconsistency within its input. The user can check/change the input after the message was shown.
 
 ## Decision rules Calculation with MCDA – Raster
 
@@ -81,7 +81,7 @@ The user can choose between different decision rules through the “different de
 ![grafik](https://user-images.githubusercontent.com/79254477/110511146-3a209c00-8104-11eb-8c5e-ccf2efa08619.png)
 
  
-The user can add a layer as a criterion with the “Add as Criterion” layer or ad a layer as a constraint with the “Add as constraint” button. In the example all three criterion layers are added as criterion and the constraint layer is added as constraint.
+The user can add a layer as a criterion with the “Add as Criterion” layer or add a layer as a constraint with the “Add as constraint” button. In the example all three criterion layers are added as criterion and the constraint layer is added as constraint.
 
 ![grafik](https://user-images.githubusercontent.com/79254477/110511171-4147aa00-8104-11eb-9f7e-b667b3303d80.png)
 
@@ -93,7 +93,7 @@ The user can now directly assign the weights within the table. For example:
 This means (oversimplified):
 - factor1 is the most important criterion for the problem
 - factor 3 is the least important criterion for the problem
-### NOTE THAT THE SUM OF WEIGHTS SHOULD BE 1
+### NOTE: The sum of weights schould be 1
 
 Also calculated weights (*.wpc file from “MCDA – Weighting (Pairwise)” tool) can be loaded with the “Load weights …” button. 
 ### Note: after loading weights, the table cannot be edited anymore.
