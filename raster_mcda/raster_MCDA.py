@@ -39,7 +39,7 @@ from qgis.PyQt.QtWidgets import QAction, QTableWidget, QTableWidgetItem, QMessag
 from qgis.core import QgsProject, QgsRasterLayer, Qgis, QgsLayerTreeLayer 
 from osgeo import gdal # for conversion raster to array to raster
 import numpy as np # for Array calculation
-import osr # for Spatial reference System
+from osgeo import osr # for Spatial reference System
 import sys
 from fractions import Fraction
 
